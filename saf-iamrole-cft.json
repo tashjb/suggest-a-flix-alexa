@@ -1,7 +1,7 @@
 {
    "AWSTemplateFormatVersion": "2010-09-09",
    "Resources": {
-      "saf-alexaskill-iamRole": {
+      "safASkillRole": {
          "Type": "AWS::IAM::Role",
          "Properties": {
             "AssumeRolePolicyDocument": {
@@ -54,7 +54,7 @@
          "Properties": {
             "Path": "/",
             "Roles": [ {
-               "Ref": "saf-alexaskill-iamRole"
+               "Ref": "safASkillRole"
             } ]
          }
       }
