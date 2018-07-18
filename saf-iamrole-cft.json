@@ -18,10 +18,9 @@
             "Policies": [ {
                "PolicyName": "saf-alexaskill-iam",
                "PolicyDocument": {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
+    "Version" : "2012-10-17",
+                  "Statement": [ {
+                     "Effect": "Allow",
             "Action": [
                 "dynamodb:DeleteItem",
                 "dynamodb:GetItem",
@@ -30,8 +29,8 @@
                 "dynamodb:UpdateItem"
             ],
             "Resource": "arn:aws:dynamodb:eu-west-1:084751912031:table/*"
-        },
-        {
+                  },
+                  {
             "Effect": "Allow",
             "Action": "logs:CreateLogGroup",
             "Resource": "arn:aws:logs:eu-west-1:084751912031:*"
@@ -45,9 +44,11 @@
             "Resource": [
                 "arn:aws:logs:eu-west-1:084751912031:log-group:/aws/lambda/InfoSecFacts-alexa-skill:*"
             ]
-        }
-    ]
-},
+        } ]
+               }
+               } ]
+            }
+      },
       "RootInstanceProfile": {
          "Type": "AWS::IAM::InstanceProfile",
          "Properties": {
@@ -58,3 +59,5 @@
          }
       }
    }
+}
+}
