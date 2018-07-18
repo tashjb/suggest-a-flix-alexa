@@ -1,0 +1,39 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "Pick a Flix",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "flixIntent",
+                    "slots": [],
+                    "samples": [
+                        "Suggest a movie",
+                        "Suggest a flix",
+                        "Choose a movie",
+                        "Choose a flix",
+                        "Pick a movie",
+                        "Pick a flix",
+                        "I need a movie",
+                        "I need a flix",
+                        "Suggest something to watch",
+                        "Tell me what I should watch",
+                        "I wanna netflix and chill"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
