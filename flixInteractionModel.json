@@ -21,6 +21,8 @@
                     "samples": [
                         "Suggest a movie",
                         "Suggest a flix",
+                        "Suggest a different movie",
+                        "Suggest a different flix",
                         "Choose a movie",
                         "Choose a flix",
                         "Pick a movie",
