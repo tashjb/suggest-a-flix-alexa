@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "Pick a Flix",
+            "invocationName": "pick a flix",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
