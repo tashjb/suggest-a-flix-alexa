@@ -66,7 +66,8 @@ def handle_session_end_request():
 flixSuggestion = [
     'movie1',
     'movie2',
-    'movie3'
+    'movie3',
+    'movie4'
     ]
     
 
