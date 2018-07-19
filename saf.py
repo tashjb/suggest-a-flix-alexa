@@ -116,7 +116,8 @@ flixSuggestion = [
     'The Dallas Buyers Club',
     'Ghostbusters',
     'The Kings Speech',
-    'Cruel Intentionss'
+    'Cruel Intentions',
+    'Despicable Me'
 
     ]
     
