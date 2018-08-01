@@ -66,11 +66,11 @@ def handle_session_end_request():
 flixSuggestion = [
     'Jaws',
     'Annihilation',
-    'God’s Own Country',
+    'Gods Own Country',
     'The Wailing',
     'Deadpool',
     'When Harry Met Sally',
-    'Schindler’s List',
+    'Schindlers List',
     'La La Land',
     'Creep',
     'Train to Busan',
@@ -95,7 +95,7 @@ flixSuggestion = [
     'Annie Hall',
     'Mad Max: Fury Road',
     'Fargo',
-    'The World’s End',
+    'The Worlds End',
     'Hacksaw Ridge',
     'To Kill A Mockingbird',
     'In Bruges',
@@ -116,14 +116,12 @@ flixSuggestion = [
     'The Dallas Buyers Club',
     'Ghostbusters',
     'The Kings Speech',
-    'Cruel Intentions',
-    'Despicable Me'
+    'Cruel Intentions'
+]
 
-    ]
-    
 
 def set_fact_in_session(intent, session):
-    
+
     card_title = 'Flix suggestion'
     session_attributes = {}
 
@@ -206,7 +204,7 @@ def lambda_handler(event, context):
     function.
     """
     if (event['session']['application']['applicationId'] !=
-            "amzn1.ask.skill.50158b1a-edbf-445b-85fe-fa098855c4f9"):
+            "amzn1.ask.skill.b2a1c1d7-64f6-4766-8dc6-da01b7782fd7"):
     	raise ValueError("Invalid Application ID")
 
     if event['session']['new']:
